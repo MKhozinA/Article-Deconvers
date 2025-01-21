@@ -6,15 +6,16 @@
 </template>
 
 <script>
-import Hero from './components/Hero.vue';
-import Latest from './components/Latest.vue';
-import Trending from './components/Trending.vue';
+import Hero from './components/Hero.vue'
+import Trending from './components/Trending.vue'
+import Latest from './components/Latest.vue'
 
 export default {
   name: 'Article',
   components: {
-    Hero, Latest, Trending,
+    Hero,
+    Trending,
+    Latest,
   },
 }
 </script>
-
