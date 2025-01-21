@@ -1,8 +1,8 @@
 <template>
   <h1 class="text-black">Tess</h1>
   <Hero />
-  <Latest />
   <Trending />
+  <Latest />
 </template>
 
 <script>

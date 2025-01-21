@@ -1,13 +1,13 @@
 <template>
-  <nav class="bg-[#028391] text-white py-4 px-6 flex justify-between items-center">
+  <nav class="bg-[#028391] text-white py-6 px-16 flex justify-between items-center w-full">
     <!-- Left Section: Logo and Title -->
-    <div class="flex items-center space-x-2">
+    <div class="flex items-center gap-[3.49px]">
       <img src="/logo/logo.png" alt="Logo" class="h-8 w-8" />
       <span class="text-xl font-semibold">Deconverse</span>
     </div>
 
     <!-- Right Section: Buttons -->
-    <div class="space-x-4">
+    <div class="flex items-center gap-4">
       <button
         class="bg-transparent border border-white py-2 px-4 rounded hover:bg-white hover:text-[#028391] transition"
       >
